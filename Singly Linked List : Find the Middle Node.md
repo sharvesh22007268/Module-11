@@ -36,10 +36,38 @@ To write a Python program that:
 ---
 
 ## 💻 Program
-Add code here
+```
+def init(self, value): self.data = value self.next = None
+class LinkedList:
+
+def init(self):
+
+self.head = None
+def push(self, new_data):
+
+new_node = Node(new_data)
+new_node.next = self.head
+self.head = new_node
+def printMiddle(self):
+
+temp = self.head
+count = 1
+while temp is not None:
+    if count==3:
+        print(temp.data)
+    temp = temp.next
+    count+=1
+llist = LinkedList() for i in range(5): value = int(input()) llist.push(value)
+
+llist.printMiddle()
+```
 
 ## Sample Input & Output
+<img width="379" height="213" alt="image" src="https://github.com/user-attachments/assets/8614109b-cf08-4b23-b995-4ef194a4a4d6" />
+
+
+
 
 ## Result
-
+The program is excuted and verified.
 
